@@ -1,0 +1,20 @@
+target/
+logs/
+*.mvn
+mvnw*
+!**/src/main/**
+!**/src/test/**
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+*.log
+
+### STS ###
+.apt_generated
+.classpath
+.project
+.settings
+.springBeans

@@ -1,0 +1,9 @@
+spring:
+  redis:
+    host: ${SPRING_REDIS_HOST:127.0.0.1}
+    port: ${SPRING_REDIS_PORT:6371}
+
+logging:
+  level:
+    com.acme.elvl: DEBUG
+  file: logs/application-debug.log
